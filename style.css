@@ -3,6 +3,11 @@ body {
     color: white;
 }
 
+body div {
+    width: 100%;
+    height: 100%;
+}
+
 body h1 {
     font-size: 20em;
     text-align: center;

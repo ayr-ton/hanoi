@@ -7,11 +7,10 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div>
-    <input type="number" ng-model="discos" placeholder="Quantos discos?">
-    </div>
-    <h1 ng-click="count = count - 1" ng-init="count=255 ">
+    <div ng-controller="CounterCtrl" ng-click="fall()" >
+    <h1 ng-init="init()">
       {{count}}
     </h1>
+    </div>
   </body>
 </html>
