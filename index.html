@@ -1,0 +1,17 @@
+<!doctype html>
+<html ng-app>
+  <head>
+    <title>Contador regressivo de jogadas</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div>
+    <input type="number" ng-model="discos" placeholder="Quantos discos?">
+    </div>
+    <h1 ng-click="count = count - 1" ng-init="count=255 ">
+      {{count}}
+    </h1>
+  </body>
+</html>
